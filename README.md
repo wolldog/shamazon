@@ -2,7 +2,7 @@
 
 ## Description
 
-Shamazon provides the backend functionality and product database for an e-commerce website. Using Node, MySQL, Sequeli
+Shamazon provides the backend functionality and product database for an e-commerce website. Using Node, MySQL, Sequelize and 
 
 ## Table of Contents
 - [Installation](#installation)
@@ -174,7 +174,7 @@ All available routes can be imported into Insomnia using the shamazon.json suppl
 
 ## <a name="demo-video"></a>Shamazon Demo
 
-TODO: ADD DEMO VIDEO
+[### Demo video](https://user-images.githubusercontent.com/110208272/220834844-bf945387-6a51-49ba-a330-4524dc6651b6.mp4)
 
 ## <a name="license"></a>License
 
@@ -189,5 +189,9 @@ N/A
   If you have questions regarding the Shamazon application,
   you can contact me directly by email at lydiawallis@live.co.uk or reach out
   to me on GitHub at https://www.github.com/wolldog.
+
+
+
+
 
 
