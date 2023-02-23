@@ -2,7 +2,9 @@
 
 ## Description
 
-Shamazon provides the backend functionality and product database for an e-commerce website. Using Node, MySQL, Sequelize and 
+Shamazon provides the backend functionality for an e-commerce website. The application enables you to interact with a MySQL database using Express APIs and Sequelize to select, create, update and delete items from your product cataloge.
+
+### [Shamazon Demo](https://user-images.githubusercontent.com/110208272/220834665-682e2cb5-fbf5-42c9-8434-c3928fe5cccf.mp4)
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,7 +14,6 @@ Shamazon provides the backend functionality and product database for an e-commer
   - [Create](#create)
   - [Update](#update)
   - [Delete](#delete)
-- [Demo video](#demo-video)
 - [Tests](#tests)
 - [Questions](#questions)
 
@@ -174,7 +175,7 @@ All available routes can be imported into Insomnia using the shamazon.json suppl
 
 ## <a name="demo-video"></a>Shamazon Demo
 
-[### Demo video](https://user-images.githubusercontent.com/110208272/220834844-bf945387-6a51-49ba-a330-4524dc6651b6.mp4)
+https://user-images.githubusercontent.com/110208272/220834665-682e2cb5-fbf5-42c9-8434-c3928fe5cccf.mp4
 
 ## <a name="license"></a>License
 
@@ -189,9 +190,4 @@ N/A
   If you have questions regarding the Shamazon application,
   you can contact me directly by email at lydiawallis@live.co.uk or reach out
   to me on GitHub at https://www.github.com/wolldog.
-
-
-
-
-
 
