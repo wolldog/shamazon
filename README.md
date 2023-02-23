@@ -36,6 +36,8 @@ Shamazon provides routes to select all, select by ID, create, update and delete 
 - **tablename**: required (categories, products or tags)
 - **id**: optional for select (not specifying an id will return all), required for update and delete. 
 
+All available routes can be imported into Insomnia using the shamazon.json supplied in /routes.
+
 ### <a name="select"></a>Select
 
 `GET http://localhost:{PORT}/api/{tablename}/{id}`
@@ -127,10 +129,11 @@ Examples of expected input
 **Product**
 ```
 {
- product_name: "Basketball",
- price: 200.00,
- stock: 3,
- tagIds: [1, 2, 3, 4]
+ product_name: "Harry Potter - Goblet of Fire",
+ price: 25.99,
+ stock: 45,
+ catagory_name: 6,
+ tagIds: [9]
 }
 ```   
 **Tag**
@@ -148,30 +151,28 @@ Examples of expected input:
 **Category**
 ```
 {
- "category_name": "Books"
+ "category_name": "Childrens books"
 }
 ```
 **Product**
 ```
 {
- product_name: "Basketball",
- price: 200.00,
- stock: 3,
- tagIds: [1, 2, 3, 4]
+ product_name: "Harry Potter - Chamber of Secrets",
+ price: 30.00,
+ stock: 40,
+ tagIds: [9, 3]
 }
 ```   
 **Tag**
 ```
 {
- "tag_name": "fantasy"
+ "tag_name": "fiction"
 }
 ```
 
 ### Delete  
 
 `DELETE http://localhost:{PORT}/api/{tablename}/{id}`
-
-All available routes can be imported into Insomnia using the shamazon.json supplied in /routes.
 
 ## <a name="demo-video"></a>Shamazon Demo
 
